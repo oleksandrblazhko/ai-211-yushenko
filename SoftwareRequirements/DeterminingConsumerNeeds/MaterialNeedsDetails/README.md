@@ -1,2 +1,2 @@
 ### Деталізація матеріальних потреб
-![Mind Map](/mind_map.jpg)
+![Mind Map](./mind_map.jpg)
