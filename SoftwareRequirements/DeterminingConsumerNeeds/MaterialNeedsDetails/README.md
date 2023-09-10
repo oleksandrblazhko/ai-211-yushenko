@@ -1,2 +1,2 @@
 ### Деталізація матеріальних потреб
-![Mind Map](/mind_map.jpg)
+<image src="/mind_map.jpg" alt="Mind Map">
