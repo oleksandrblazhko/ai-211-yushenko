@@ -1,0 +1,61 @@
+{
+	"description": "Опис об'єктів предметної області відстежування емоцій та вологісті навколишнього середовища",
+  	"type": "object",
+	"properties": {
+		"User": {
+			"type": "object",
+			"properties": {
+				"login": {"type": "string"},
+				"password": {"type": "string"},
+				"name": {"type": "string"}
+			},
+			"required": ["login", "password", "name"]
+		}, 
+		"Consumer": {
+			"type": "object", 
+			"properties": {
+				"order": {"type": "array", "items": {"$ref": "#/definitions/Order"}}
+			}
+		}, 
+		"Order": {
+			"type": "object",
+			"properties": {
+				"active": {"type": "boolean"},
+				"count": {"type": "integer"},
+				"price": {"type": "number"},
+				"product": {"type": "array", "items": {"$ref": "#/definitions/Product"}}
+			}, 
+			"required": ["product"]
+		},
+		"Product": {
+			"type": "object",
+			"properties": {
+				"name": {"type": "string"},
+				"manufacturer": {"type": "string"},
+				"price": {"type": "number"}
+			},
+			"required": ["name", "manufacturer", "price"]
+		}
+	},
+	"definitions": {
+		"Order": {
+			"type": "object",
+			"properties": {
+				"active": {"type": "boolean"},
+				"count": {"type": "integer"},
+				"price": {"type": "number"},
+				"product": {"$ref": "#/definitions/Product"}
+			}, 
+			"required": ["active", "count", "price", "product"]
+		},
+		"Product": {
+			"type": "object",
+			"properties": {
+				"name": {"type": "string"},
+				"manufacturer": {"type": "string"},
+				"price": {"type": "number"}
+			},
+			"required": ["name", "manufacturer", "price"]
+		}
+	}
+}
