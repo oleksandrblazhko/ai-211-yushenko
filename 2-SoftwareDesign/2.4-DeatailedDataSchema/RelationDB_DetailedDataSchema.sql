@@ -2,7 +2,9 @@ CREATE TABLE User (
     login VARCHAR(255) NOT NULL,
     password VARCHAR(255) NOT NULL,
     name VARCHAR(255) NOT NULL,
-    PRIMARY KEY (login)
+    PRIMARY KEY (login),
+    CHECK (login REGEXP '^[a-zA-Z0-9_]+$' AND LENGTH(login) <= 255),
+    CHECK (password REGEXP '^[a-zA-Z0-9_]+$' AND LENGTH(password) <= 255)
 );
 
 CREATE TABLE Product (
