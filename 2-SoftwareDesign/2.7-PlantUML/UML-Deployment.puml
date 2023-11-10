@@ -1,0 +1,36 @@
+@startuml
+title UML-діаграма розгортання ПП
+
+left to right direction
+
+skinparam componentStyle uml1
+
+node "<<Настільний компьютер>>" as desktop {
+  node "<<OC Windows, OC Linux>>" as os {
+    node "<<Google, Mozila, \nOpera, Explorer>>" as web {
+      component [*.js (React)]
+      }
+  }
+}
+
+keyboard -- desktop
+mouse -- desktop
+
+node "<<Сервер 1>>" as server1 {
+  node "<<OC Linux>>" {
+    node "<<Application Server \nApache Server>>"  as node {
+      component [*.js]
+      }
+  }
+}
+
+node "<<Сервер 3>>" as server3 {
+  node "<<OC Linux>>" as oclinux {
+    node "<< DataBase Server \nMongoDB>>" as db {
+    database JSON
+  }
+}
+
+desktop -- server1
+server1 -- server3
+@enduml

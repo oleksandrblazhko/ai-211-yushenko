@@ -1,0 +1,31 @@
+@startjson
+
+title Опис схеми даних
+
+{
+	"User": {
+		"login": "john_doe",
+		"password": "secure_password",
+		"name": "John Doe"
+	},
+	"Consumer": {
+		"order": [
+			{
+				"active": true,
+				"count": 2,
+				"price": 759.98,
+				"product": [{
+					"name": "Smartphone",
+					"manufacturer": "XYZ Electronics",
+					"price": 499.99
+				}, {
+					"name": "Smartphone",
+					"manufacturer": "Lemon Electronics",
+					"price": 259.99
+				}]
+			}
+		]
+	}
+}
+
+@endjson
