@@ -3,6 +3,6 @@
 | NFR1.1 | TC1.5        | Початкові умови: відсутні               | Екрана форма:                                     |
 |        |              | Кроки сценарію: відсутні                | ![interface](./UserInterface.png)                 |
 | NFR1.1 | TC1.6        | Початкові умови: успішно пройдені TC1.5 | Екрана форма:                                     |
-|        |              | Кроки сценарію:                         | ![interface refresh](./UserInterfaceREFRESH.png)  |
+|        |              | Кроки сценарію: проведння по екрану згори вниз                         | ![interface refresh](./UserInterfaceREFRESH.png)  |
 | NFR1.1 | TC1.7        | Початкові умови: успішно пройдені TC1.6 | Екрана форма:                                     |
 |        |              | Кроки сценарію: відстуні                | ![interfave](./UserInterface.png)                 |
