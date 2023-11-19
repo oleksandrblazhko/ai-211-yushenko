@@ -11,7 +11,7 @@ function viewProductDetails(product) {
 	}
 
 	// спочатку перевіряємо значення поля price у об'єкті product
-	if (product.price < 0 || product.price > 100000) {
+	if (!(product.price >= 0 & product.price < 100000)) {
 		return 0;
 	}
 	//якщо одна із цих перевірок виконається, то програма поверне значення 0
