@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-09T08:11:20.765Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="ELzglB1UP8C0GIeSBTiV" version="22.0.4" type="device">
+<mxfile host="app.diagrams.net" modified="2023-11-19T16:22:32.824Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="iGszDdKlR2374MnH0O3F" version="22.1.3" type="device">
   <diagram name="Страница — 1" id="k8pq9ZXVkBd7GwOQCwTw">
-    <mxGraphModel dx="1049" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1259" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,7 +10,7 @@
         <mxCell id="2PYC8G_EpopgvcAmO5PE-3" value="&amp;lt;&amp;lt;ОС Windows, OC Linux&amp;gt;&amp;gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="115" width="200" height="185" as="geometry" />
         </mxCell>
-        <mxCell id="r6_Lnon5kRv82LdZoOvJ-3" value="&amp;lt;&amp;lt;Google, Mozila, Opera, Explorer&amp;gt;&amp;gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="r6_Lnon5kRv82LdZoOvJ-3" value="&amp;lt;&amp;lt;Google, Mozila, Opera, Explorer&amp;gt;&amp;gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="43.75" y="160" width="152.5" height="131" as="geometry" />
         </mxCell>
         <mxCell id="2PYC8G_EpopgvcAmO5PE-4" value="*.js&lt;br&gt;(React)" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
@@ -22,10 +22,10 @@
         <mxCell id="2PYC8G_EpopgvcAmO5PE-6" value="&amp;lt;&amp;lt;OC Linux&amp;gt;&amp;gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="340" y="115" width="200" height="185" as="geometry" />
         </mxCell>
-        <mxCell id="r6_Lnon5kRv82LdZoOvJ-1" value="&amp;lt;&amp;lt;Application Server Apache Tomcat&amp;gt;&amp;gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="r6_Lnon5kRv82LdZoOvJ-1" value="&amp;lt;&amp;lt;Application Server Node JS&amp;gt;&amp;gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="363.75" y="160" width="152.5" height="131" as="geometry" />
         </mxCell>
-        <mxCell id="2PYC8G_EpopgvcAmO5PE-7" value="*.jar&lt;br&gt;" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="2PYC8G_EpopgvcAmO5PE-7" value="*.js" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="390" y="210" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2PYC8G_EpopgvcAmO5PE-8" value="&amp;lt;&amp;lt;Сервер 3&amp;gt;&amp;gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
