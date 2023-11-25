@@ -1,0 +1,1 @@
+!['Constructor method'](./ConstuctorMethod.png)
