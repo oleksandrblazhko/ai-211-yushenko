@@ -28,7 +28,7 @@ if result == 0) console.log("TC1.1: Failed")
 else console.log("TC1.1: Passed")
 
 result = viewProductDetails({
-        name: "BelrineLakeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        name: "BelrineLake",
         manufacturer: "LakeLake",
         price: 5.6,
 })
@@ -38,7 +38,7 @@ else console.log("TC1.2: Passed")
 
 result = viewProductDetails({
         name: "GoodenWasser",
-        manufacturer: "BaumLukkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkke",
+        manufacturer: "BaumLuke",
         price: 2.5,
 })
 
@@ -48,7 +48,7 @@ else console.log("TC1.3: Passed")
 result = viewProductDetails({
         name: "GimbergenGurden",
         manufacturer: "GardenLaka",
-        price: -1000,
+        price: 100,
 })
 
 if (result != 0) console.log("TC1.4: Failed")
